@@ -1,8 +1,6 @@
 from collections import deque
 import sys
 input = sys.stdin.readline
-from collections import deque
-
 n, m = map(int, input().split())
 ans = -1
 grid = [list(map(int, input().split())) for _ in range(n)]
